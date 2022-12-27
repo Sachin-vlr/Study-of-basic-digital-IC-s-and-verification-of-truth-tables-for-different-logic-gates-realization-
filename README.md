@@ -64,16 +64,16 @@ Developed by: SACHIN.C
 RegisterNumber:  22001187
 */
 module exp1 (a,b,y1,y2,y3,y4,y5,y6,y7);
-input a,b;
-output y1,y2,y3,y4,y5,y6,y7;
-and (y1,a,b);
-or (y2,a,b);
-nor(y3,a,b);
-xor (y4,a,b);
-nand (y5,a,b);
-nor (y6,a,b);
-xnor (y7,a,b);
-endmodule
+\ninput a,b;
+\noutput y1,y2,y3,y4,y5,y6,y7;
+\nand (y1,a,b);
+\nor (y2,a,b);
+\nnor(y3,a,b);
+\nxor (y4,a,b);
+\nnand (y5,a,b);
+\nnor (y6,a,b);
+\nxnor (y7,a,b);
+\nendmodule
 Logic symbol & Truthtable
 RTL realization
 Output:
